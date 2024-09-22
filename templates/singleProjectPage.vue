@@ -27,9 +27,15 @@
             v-for="n in 5"
             :key="n"
           >
-            <RouterLink class="w-full h-full flex items-center justify-center" to="">
-              <AvatarImage src="" alt="" />
-              <AvatarFallback> </AvatarFallback>
+            <RouterLink
+              class="w-full h-full flex items-center justify-center"
+              to=""
+            >
+              <AvatarImage
+                src=""
+                alt=""
+              />
+              <AvatarFallback />
             </RouterLink>
           </Avatar>
         </div>
@@ -50,7 +56,10 @@
             </TableRow>
           </TableHeader>
           <TableBody>
-            <TableRow v-for="n in 5" :key="n">
+            <TableRow
+              v-for="n in 5"
+              :key="n"
+            >
               <TableCell> Lorem ipsum dolor sit amet. </TableCell>
               <TableCell> In progress </TableCell>
               <TableCell> 22/08/2024 </TableCell>
