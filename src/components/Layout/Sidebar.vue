@@ -24,6 +24,10 @@ const accountLinks = [
     to: '/profile',
     icon: 'lucide:user',
   },
+  //  {
+  //   title: 'Chat',
+  //   icon: 'lucide:message-circle',
+  // },
   {
     title: 'Settings',
     to: '/settings',
@@ -31,7 +35,6 @@ const accountLinks = [
   },
   {
     title: 'Singn Out',
-    to: '/signout',
     icon: 'lucide:log-out',
   }
 ]

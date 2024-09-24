@@ -1,11 +1,11 @@
 <script setup lang="ts">
-
 const errorStore = useErrorStore()
 
 onErrorCaptured((error) => {
   errorStore.setError({ error })
 })
-console.log(import.meta.env.DEV)
+
+onMounted(async () => {})
 
 </script>
 
